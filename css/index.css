@@ -292,7 +292,8 @@ justify-content: space-between;
 .footerContent p {
   font-size: 25px;
   display: inline-block;
-  color: white
+  color: white;
+  font-family: 'Brush Script MT', cursive;
 }
 
 .fab{
@@ -316,7 +317,7 @@ color: white;
           padding: 25px 0px 10px 0;
           margin: 0;
           font-size: 16px;
-          line-height: 16px;
+          line-height: 22px;
           font-weight: 500;
           font-family: 'Open Sans', sans-serif;
         }
@@ -350,7 +351,7 @@ color: white;
   padding: 25px 0px 10px 0;
   margin: 0;
   font-size: 16px;
-  line-height: 16px;
+  line-height: 22px;
   font-weight: 500;
   font-family: 'Open Sans', sans-serif;
 }
@@ -378,7 +379,7 @@ color: white;
     padding: 0 17px 17px 0;
     margin: 0;
     font-size: 16px;
-    line-height: 16px;
+    line-height: 22px;
     font-weight: 500;
     font-family: 'Open Sans', sans-serif;
   }
@@ -418,7 +419,7 @@ color: white;
     padding: 0 17px 40px 0;
     margin: 0;
     font-size: 16px;
-    line-height: 16px;
+    line-height: 22px;
     font-weight: 500;
     font-family: 'Open Sans', sans-serif;
   }

@@ -36,4 +36,17 @@ jQuery(document).ready(function($){
     }
   });
 
+  $('.clearButton').click(function(){
+
+						/*Clear all input type="text" box*/
+						$('.leftSide [type="text"]' ).val('');
+            $('.leftSide #textarea').val('');
+						/*Clear textarea using id */
+
+					}
+
+			);
+
+
+
 });

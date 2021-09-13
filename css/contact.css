@@ -121,6 +121,15 @@ font-family: 'Open Sans', sans-serif;
   outline: 0;
 }
 
+.leftSide button{
+  border:none;
+  background-color: red;
+  padding: 12px 15px;
+  color: white;
+  border-radius: 2px;
+  margin-right: 14px;
+}
+
 .buttonInp{
   border: none;
   background-color: red;
@@ -248,7 +257,8 @@ input .buttonInput {
 .footerContent p {
   font-size: 25px;
   display: inline-block;
-  color: white
+  color: white;
+  font-family: 'Brush Script MT', cursive;
 }
 
 .fab{

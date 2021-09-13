@@ -169,13 +169,15 @@ transition: opacity 0.2s ease;
 }
 
 .leftSide a button{
+  font-size: 25px;
   margin-top: 50px;
-  padding: 10px 60px;
+  padding: 10px 45px;
   border: none;
-  border-radius: 3px;
+  border-radius: 10px;
   background-color: #A0B4BB;
   color: white;
   font-family: 'Open Sans', sans-serif;
+  font-size:
 }
 
 .leftSide a button:hover{
@@ -243,7 +245,8 @@ transition: opacity 0.2s ease;
 .footerContent p {
   font-size: 25px;
   display: inline-block;
-  color: white
+  color: white;
+  font-family: 'Brush Script MT', cursive;
 }
 
 .fab{

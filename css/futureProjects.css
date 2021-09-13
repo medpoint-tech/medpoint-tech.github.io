@@ -178,7 +178,8 @@ transition: opacity 0.2s ease;
 .footerContent p {
   font-size: 25px;
   display: inline-block;
-  color: white
+  color: white;
+  font-family: 'Brush Script MT', cursive;
 }
 
 .fab{
@@ -236,7 +237,6 @@ color: white;
   padding: 25px 0px 10px 0;
   margin: 0;
   font-size: 16px;
-  line-height: 22px;
   font-weight: 500;
   font-family: 'Open Sans', sans-serif;
 }
@@ -265,7 +265,6 @@ color: white;
     padding: 0 17px 17px 0;
     margin: 0;
     font-size: 16px;
-    line-height: 22px;
     font-weight: 500;
     font-family: 'Open Sans', sans-serif;
   }
@@ -295,6 +294,15 @@ color: white;
     padding-bottom: 0;
   }
 
+  .leftSide p{
+    padding: 0 17px 17px 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+  }
+
 
   .leftSide h1{
         font-size: 30px;
@@ -306,7 +314,6 @@ color: white;
     padding: 0 0px 10px 0;
     margin: 0;
     font-size: 16px;
-    line-height: 16px;
     font-weight: 500;
     font-family: 'Open Sans', sans-serif;
   }
@@ -409,7 +416,7 @@ justify-content: space-between;
 }
   .fab{
     font-size: 23px;
-  color: white;
+    color: white;
   }
 
 }
