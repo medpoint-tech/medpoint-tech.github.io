@@ -1,1 +1,0 @@
-# medpoint-tech.github.io

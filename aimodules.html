@@ -10,7 +10,7 @@
 </head>
 <body>
    <header>
-    <nav class="navbar navbar-expand-lg navbar-light ">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
          <a class="navbar-brand" href="index.html">
             <img src="./img/logoomed.png" width="340" height="70">
@@ -18,7 +18,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
              <li class="nav-item"><a class="nav-link" href="pacs.html">PACS</a></li>
-             <li class="nav-item"><a class="nav-link" href="aimodules.html">AI Modules</a></li>
+             <li class="nav-item"><a class="nav-link active" href="aimodules.html">AI Modules</a></li>
              <li class="nav-item"><a class="nav-link" href="futureprojects.html">Future Projects</a></li>
              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
           </ul>
@@ -27,44 +27,40 @@
     </nav>
    </header>
    <main>
-       <section class="first-section">
-          <div class="first-section-d">
-             <h1 class="first-section-title">Diagnosing diseases faster and with great precision</h1>
-             <p class="first-section-text">Revolutions in AI, cloud technologies, and IoT are enabling a new approach to pathology diagnosis & treatment. MedPoint Technologies is at the forefront.</p>
-          </div> 
-       </section>
-       <section class="second-section">
-          <div class="second-section-d">
-            <h1>AI-powered digital pathology</h1>
-            <p>The future of pathology diagnosis will rely on artificial intelligence; genetics and histology are too complex for humans to understand. MedPoint utilizes next generation methods in AI to significantly reduce misdiagnose rates & turnover time while increasing survival rates. </p>
+      <section class="pacs-sec3">
+         <div class="pacs-sec3-d">
+            <h1 class="pacs-sec3-title">Saving pathologists 75% of their time</h1>
+            <p class="pacs-sec3-text">MedPoint uses computer vision to develop AI that can classify, categorize, and label every cell and its substructure. Our AIs are able to determine which cells are cancerous and how that cancer will develop. MedPoint’s AIs also generate reports which showcase all of this information, saving clinicians time spent labeling and annotating slides themselves. Our AI modules are among the most precise in the world, able to decrease misdiagnose rates from 10%-30% to 1-5%.</p>
           </div>
-          <div class="second-section-d1">
-             <img src="img/sec2.jpeg">
+          <div class="pacs-sec3-d1">
+          <div class="flex-wrapper">
+             <div class="slider-wrapper">
+                <div class="slide active" id="arajin">
+                   <img src="img/1.png" alt="">
+                   <img src="img/1clicked.png" alt="">
+                </div>
+                <div class="slide" id="erkrord" >
+                  <img src="img/2.png" alt="">
+                  <img src="img/2clicked.png" alt="">
+               </div>
+               <div class="slide" id="errord">
+                  <img src="img/3.png"  alt="">
+                  <img src="img/3clicked.png" alt="">
+               </div>
+               <div class="slide" id="chorrord">
+                  <img src="img/4.png"  alt="">
+                  <img src="img/4clicked.png" alt="">
+               </div>
+             </div>
           </div>
-       </section>
-       <section class="third-section">
-          <div class="third-section-d">
-             <h1>
-               Recent News
-             </h1>
+          <div class="dots-wrapper">
+             <span class="dot active"><img src="img/1.png" alt=""></span>
+             <span class="dot"><img src="img/2.png" alt=""></span>
+             <span class="dot"><img src="img/3.png" alt=""></span>
+             <span class="dot"><img src="img/4.png" alt=""></span>
           </div>
-          <div class="third-section-d1">
-            <div class="third-news-1">
-                <p>April 2, 2020</p>
-                <p><a href="https://emergeconf.io/blog/emerge-100-report">MedPoint Listed As Top 100 Startups By Emerge.</a></p>
-            </div>
-            <div class="third-news-2">
-               <p>June 21, 2021</p>
-               <p><a href="https://epic.aua.am/ewc-armenia-2021/">MedPoint Ranked First Place In Early Stage Startups In EWC Armenia.</a></p>
-            </div>
-          </div>
-       </section>
-       <section class="fourth-section">
-          <div class="fourth-section-d">
-            <p class="fourth-section-text1">“There is a revolution taking place in the practice of medicine, particularly cancer therapy, and most of that innovation is taking place in the biotech companies.” </p>
-            <p class="fourth-section-text2">- Chris Sassouni, Eagle Asset Management</p>
-          </div>
-       </section>
+         </div>
+      </section>
    </main>
    <footer>
 		<div class="footer_items container">
@@ -98,5 +94,6 @@
 
 		</div>
 	</footer>
+   <script src="main.js"></script>
 </body>
 </html>
